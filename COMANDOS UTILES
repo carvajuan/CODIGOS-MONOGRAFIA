@@ -4,3 +4,5 @@ PARA CORRER CORSIKA SE USA ESTE COMANDO
 
 
 scp file.txt jp.carvajalp@dzero.uniandes.edu.co:/home/jp.carvajalp
+
+tar -xf archive.tar.gz

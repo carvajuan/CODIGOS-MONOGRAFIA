@@ -1,0 +1,28 @@
+RUNNR	1			run number
+EVTNR	1                      number of first shower event      
+NSHOW	450000                 number of showers to generate     
+PRMPAR	1                      particle type of prim. particle
+ESLOPE	-2.7                           
+ERANGE	1.E6  1.E6                     
+THETAP	0. 70.
+PHIP	-180.	180.        
+SEED	1 0 0    
+SEED    2 0 0                     
+OBSLEV	2700.E2                         
+ATMOSPHERE	1	F
+FIXCHI	0.                             
+MAGNET	26.8744 14.4051                 
+HADFLG	0 0 0 0 0 2               
+ECUTS	0.05 0.05 0.0004 0.0004
+MUADDI	T                              
+MUMULT	T                              
+ELMFLG	T T                          
+STEPFC	1.0                            
+RADNKG	200.E2                         
+LONGI	T 10. T T                   
+ECTMAP	1.E4
+MAXPRT	1                              
+DIRECT	./
+USER	you                            
+DEBUG	F  6 F1000000                
+EXIT               

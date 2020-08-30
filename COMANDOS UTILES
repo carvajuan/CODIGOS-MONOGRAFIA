@@ -1,0 +1,6 @@
+PARA CORRER CORSIKA SE USA ESTE COMANDO
+
+./corsika77401Linux_QGSJET_gheisha < all-inputs > output.txt
+
+
+scp file.txt jp.carvajalp@dzero.uniandes.edu.co:/home/jp.carvajalp

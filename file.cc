@@ -1,3 +1,4 @@
+#define _USE_MATH_DEFINES
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -14,6 +15,9 @@ int main()
 
 	float a, px, py, pz, x, y, t;
 	float energia;
+	float norma;
+	float theta_rad;
+	float theta_deg;
 	double masa;
 	float digit1, digit2, digit3, digit4;
 	int flag1, flag2;
@@ -53,8 +57,11 @@ int main()
 				masa=139.57018*10E-3;
 			}
 			energia=sqrt((masa*masa)+(px*px)+(py*py)+(pz*pz));
+			norma=sqrt((px*px)+(py*py)+(pz*pz));
+			theta_rad=acos(pz/norma);
+			theta_deg=theta_rad*(180/M_PI);
 			char (flag2);
-			salida<<part<<" "<<digit4<<" "<<px<<" "<<py<<" "<<pz<<" "<<x<<" "<<y<<" "<<t<<" "<<energia<<endl;
+			salida<<part<<" "<<digit4<<" "<<px<<" "<<py<<" "<<pz<<" "<<x<<" "<<y<<" "<<t<<" "<<energia<<theta_rad<<theta_deg<<endl;
 			flag1++;
 		}	
 	

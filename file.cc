@@ -26,7 +26,7 @@ int main()
 	flag2=0;
 	
 	ofstream salida;
-	salida.open("file.dat");
+	salida.open("DATOS_PARTICULAS.dat");
 	
 	while(archivo>>a>>px>>py>>pz>>x>>y>>t)
 	{

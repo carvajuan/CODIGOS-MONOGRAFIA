@@ -61,7 +61,7 @@ int main()
 			theta_rad=acos(pz/norma);
 			theta_deg=theta_rad*(180/M_PI);
 			char (flag2);
-			salida<<part<<" "<<digit4<<" "<<px<<" "<<py<<" "<<pz<<" "<<x<<" "<<y<<" "<<t<<" "<<energia<<theta_rad<<theta_deg<<endl;
+			salida<<part<<" "<<digit4<<" "<<px<<" "<<py<<" "<<pz<<" "<<x<<" "<<y<<" "<<t<<" "<<energia<<" "<<theta_rad<<" "<<theta_deg<<endl;
 			flag1++;
 		}	
 	

@@ -1,28 +1,28 @@
-RUNNR	1			run number
+RUNNR	1			                   run number
 EVTNR	1                        number of first shower event      
-NSHOW	450000                   number of showers to generate     
-PRMPAR	1                      particle type of prim. particle
+NSHOW	 61074432                  number of showers to generate     
+PRMPAR	14                      particle type of prim. particle
 ESLOPE	-2.7                   slope of primary energy spectrum    
-ERANGE	1.E6  1.E6             energy range of primary particle
-THETAP	0. 70.                 range of zenith angle (degree)
+ERANGE	10  1.E6             energy range of primary particle
+THETAP	0. 90.                 range of zenith angle (degree)
 PHIP	-180.	180.               range of azimuth angle (degree)
 SEED	1 0 0                    seed for 1. random number sequence
 SEED    2 0 0                  seed for 2. random number sequence 
-OBSLEV	2700.E2                observation level (in cm)       
-ATMOSPHERE	1	F                Type of atmosphere
+OBSLEV	2660.E2                observation level (in cm)       
+ATMOSPHERE	1	F                Type of atmosphere (Tropcial)
 FIXCHI	0.                     starting altitude (g/cm**2)      
-MAGNET	26.8744 14.4051        magnetic field centr Bogota        
+MAGNET	26.9931 13.9097       magnetic field centr Bogota        
 HADFLG	0 0 0 0 0 2            flags hadr.interact.&fragmentation  
 ECUTS	0.05 0.05 0.0004 0.0004  energy cuts for particles
 MUADDI	T                      additional info for muons      
 MUMULT	T                      muon multiple scattering angle      
 ELMFLG	T T                    em. interaction flags (NKG,EGS)   
 STEPFC	1.0                    mult. scattering step length fact.      
-RADNKG	200.E2                         
-LONGI	T 10. T T                   
+RADNKG	200.E2                 outer radius for NKG lat.dens.distr.    
+LONGI	T 10. T T                longit.distr. & step size & fit & out
 ECTMAP	1.E4
-MAXPRT	1                              
-DIRECT	./
-USER	you                            
-DEBUG	F  6 F1000000                
-EXIT               
+MAXPRT	1                       max number of printed events      
+DIRECT	./home/juan/            output directory
+USER	you                       user   
+DEBUG	F  6 F1000000             debug flag and log.unit for out  
+EXIT                            terminates input
